@@ -1,0 +1,1 @@
+export type svgNameTypes = "CancelOutlined" | "CloseOutlined" | "DeleteOutlined" | "DisableOutlined" | "导航标" | "故障标识" | "方向盘" | "箭头"
