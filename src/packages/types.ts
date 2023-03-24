@@ -1,1 +1,15 @@
-export type svgNameTypes = "CancelOutlined" | "CloseOutlined" | "DeleteOutlined" | "DisableOutlined" | "导航标" | "故障标识" | "方向盘" | "箭头"
+
+    export interface LinearGradient {
+      x1: number | string;
+      x2: number | string;
+      y1: number | string;
+      y2: number | string;
+      linears: { offset: number | string; stopColor: string }[];
+    }
+    export interface SvgIconProps {
+      name: svgNameTypes;
+      style?: React.CSSProperties;
+      linearGradient?: Partial<LinearGradient>;
+      [index: string]: any;
+    }
+    export type svgNameTypes = "CancelOutlined" | "CloseOutlined" | "DeleteOutlined" | "DisableOutlined"

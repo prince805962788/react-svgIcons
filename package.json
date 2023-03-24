@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "node script/generateName.js && tsc && vite build",
+    "build": "node script/generateRender.js && tsc && vite build",
     "build:doc": "node script/generateName.js && tsc && vite build --config vite.doc.config.ts",
     "preview": "vite preview",
     "f2elint-scan": "f2elint scan",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@rollup/plugin-typescript": "^11.0.0",
+    "ejs": "^3.1.9",
     "postcss-px-to-viewport": "^1.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

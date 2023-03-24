@@ -1,4 +1,4 @@
-import { SvgIcon } from './packages';
+import SvgIcon from './packages/SvgIcon';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { filesMap } from './utils/generateSvgName';
